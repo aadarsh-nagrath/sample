@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_backend():
-    return 'Hello Backend, is on maintance 🙃  syncing with github. Testing 1.9'
+    return 'Hello Backend, is on maintance 🙃  syncing with github. Testing 2'
 
 @app.route('/webhook-handler', methods=['POST'])
 def webhook_handler():
