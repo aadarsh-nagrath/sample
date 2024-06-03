@@ -16,7 +16,7 @@ def webhook_handler():
     return '', 200
 
 def pull_changes():
-    repo_path = '/path/to/your/repo'  # Adjust this path
+    repo_path = '/home/ec2-user/sample/sample'
     os.chdir(repo_path)
     subprocess.run(['git', 'pull', 'origin', 'main'])  # Adjust according to your branch
 
